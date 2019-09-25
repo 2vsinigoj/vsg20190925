@@ -1,26 +1,73 @@
 
+repositorio GitHub: https://github.com/tata-duoc2019/Clase20190925.git
+
+user: tata-duoc2019
+password: tata.2019#$
+
+// correo gmail
+tata.duoc2019@gmail.com
+clave: tata.2019#$
+
+
+
+
 // crear carpeta 
 mkdir Clase20190925
 
 // ingresamos a la carpeta
+
 cd Clase20190925
 
 // Shift + botón derecho del mouse
-seleccionamos Git Bash Here
+
+seleccionamos "Git Bash Here"
 
 // una vez cargada la consola
 // definir mi repositorio local
+
 git init
+
 // enlazar con el repositorio remoto
+
 git remote add origin https://github.com/tata-duoc2019/Clase20190925.git
 
-// AGREGAR ARCHIVOS  que debemos subir
+// agregar files que deseamos subir
 
-git add Pasos-git.txt // un unico arcchivo
+git add Pasos-git.txt   // un unico archivo
 
-git add . // todos los archivos
+// pasos 
+git add . 
 
-git commit -m "mensaje version ###"
+git commit -m "mensaje versión ###"
+
+git push -u origin master
+
+// crear ramas
+git branch "rama_1"
+// cambiar a rama_1
+git checkout rama_1
+
+// crea y se cambia de rama
+git checkout -b rama_1
+
+// borrar rama_1
+git checkout -d rama_1
+
+
+
+// pasos
+git checkout -b rama_1
+git add .
+git commit -m "act rama_1"
+git push -u origin rama_1
+
+git checkout -b rama_2
+git add .
+git commit -m "act rama_2"
+git push -u origin rama_2
+
+
+
 
 
 
