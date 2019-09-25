@@ -32,3 +32,13 @@ seleccionamos Git Bash Here
 git init
 // enlazar con el repositorio remoto
 git remote add origin https://github.com/tata-duoc2019/Clase20190925.git
+
+
+
+git config --global user.email "2vsinigoj"
+
+git push -u origin master
+
+
+
+

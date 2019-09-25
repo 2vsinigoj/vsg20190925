@@ -14,6 +14,19 @@ git init
 // enlazar con el repositorio remoto
 git remote add origin https://github.com/tata-duoc2019/Clase20190925.git
 
+// AGREGAR ARCHIVOS  que debemos subir
+
+git add Pasos-git.txt // un unico arcchivo
+
+git add . // todos los archivos
+
+git commit -m "mensaje version ###"
+
+
+
+
+
+
 
 
 
