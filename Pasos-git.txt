@@ -1,0 +1,19 @@
+
+// crear carpeta 
+mkdir Clase20190925
+
+// ingresamos a la carpeta
+cd Clase20190925
+
+// Shift + botón derecho del mouse
+seleccionamos Git Bash Here
+
+// una vez cargada la consola
+// definir mi repositorio local
+git init
+// enlazar con el repositorio remoto
+git remote add origin https://github.com/tata-duoc2019/Clase20190925.git
+
+
+
+

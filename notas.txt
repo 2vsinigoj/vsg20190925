@@ -1,0 +1,34 @@
+github.com/2vsinigoj/vsg20190925
+
+pass Danka123
+
+
+
+
+…or create a new repository on the command line
+echo "# vsg20190925" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/2vsinigoj/vsg20190925.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/2vsinigoj/vsg20190925.git
+git push -u origin master
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+// crear carpeta 
+mkdir Clase20190925
+
+// ingresamos a la carpeta
+cd Clase20190925
+
+// Shift + botón derecho del mouse
+seleccionamos Git Bash Here
+
+// una vez cargada la consola
+// definir mi repositorio local
+git init
+// enlazar con el repositorio remoto
+git remote add origin https://github.com/tata-duoc2019/Clase20190925.git
