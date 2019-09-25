@@ -12,6 +12,7 @@ import {
 } from 'reactstrap';
 import { combineLatest } from 'rxjs';
 
+// clase FormLibros
 class FormLibros extends Component {
 
     state = {
@@ -23,6 +24,7 @@ class FormLibros extends Component {
             numcopias: 0
         }
     }
+
 
     setValues = (e, field) => {
         const { modelo } = this.state;
@@ -90,6 +92,7 @@ class FormLibros extends Component {
         );
     }
 }
+// Clase ListarLibros
 class ListarLibros extends Component {
 
     delete = (id) => {
